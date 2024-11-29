@@ -13,7 +13,7 @@ app.get("/user", async (req, res) => {
 
     await new Promise((resolve) => setTimeout(resolve, 1000));
     res.send({
-        name: "John Doe",
+        name: "Jane doe",
         age: 25,
     });
 });
